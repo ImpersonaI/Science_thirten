@@ -14,20 +14,12 @@ namespace Science_thirteen
             return (x + y + x * y);
 
         }
-
-
-
-        // Функция для формулы Эйлера
+      
 
         static void euler(float x0, float y, float h, float x)
 
         {
-
-
-
-            // Итерация до точки, в которой мы
-
-            // нужно приближение
+  
 
             while (x0 < x)
             {
@@ -50,7 +42,6 @@ namespace Science_thirteen
 
 
 
-        // Драйвер программы
 
         public static void Main()
 
@@ -65,12 +56,7 @@ namespace Science_thirteen
             float y0 = 1;
 
             float h = 0.025f;
-
-
-
-            // Значение х, при котором нам нужно
-
-            // аппроксимация
+         
 
             float x = 0.1f;
 
